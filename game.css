@@ -16,5 +16,9 @@ td {
   padding-left: 69px;
   font-size:7em;
   content:"x";
-
+}
+.circle:before {
+  padding-left: 69px;
+  font-size:7em;
+  content:"o";
 }
