@@ -1,6 +1,6 @@
 
-table, th, td {
-  border: 10px solid pink
+th, td {
+  border: 12px solid pink
 }
 
 td {
@@ -12,7 +12,9 @@ td {
   cursor: crosshair;
 }
 
-.cross {
-  background: green;
+.cross:before {
+  padding-left: 69px;
+  font-size:7em;
   content:"x";
+
 }
