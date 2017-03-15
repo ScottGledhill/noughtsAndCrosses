@@ -1,8 +1,18 @@
 
 table, th, td {
-  border: 90px solid pink
+  border: 10px solid pink
+}
+
+td {
+  height: 200px;
+  width: 200px;
 }
 
 td {
   cursor: crosshair;
+}
+
+.cross {
+  background: green;
+  content:"x";
 }

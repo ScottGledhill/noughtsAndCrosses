@@ -1,4 +1,5 @@
-$(document).ready(function() {
-
-
-});
+$( function() {
+  $('td').click( function() {
+    $(this).toggleClass("cross");
+  } );
+} );
